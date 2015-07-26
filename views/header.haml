@@ -1,0 +1,25 @@
+%nav.navbar.navbar-default(role = "navigation")
+  .navbar-header
+    %button.navbar-toggle{:type => "button", "data-toggle" => "collapse", "data-target" => ".navbar-ex-collapse"}
+      %span.sr-only Toggle Navigation
+      - 1.upto(3) do |i|
+        %span.icon-bar
+    %a(class="navbar-brand" href="/")
+      .span
+        %img( src="/attachments/estorm.jpg" width=23 height=23 alt='estorm logo')
+        = @heading
+    .navbar-collapse.collapse.navbar-ex-collapse.pull-right
+      - display_menu(@menu_items, :class => "nav navbar-nav", :levels => 1)
+      %ul.nav.navbar-nav.navbar-right    
+        %li.dropdown
+          %a{ :class => "btn btn-link dropdown-toggle", :href=>"#", :type=>"button", :id=> "dropdownMenu1","data-toggle" =>"dropdown"}
+            Language
+            %span.caret
+          %ul.dropdown-menu(role="menu" aria-labelledby="dropdownMenu1")
+            - droplist=[{:iclass => "", :val=> 'Tetun',:lang=>'tet', :url=>'/lang/tet'},{:iclass => "",:val=> 'English', :url=>'/lang/en', :lang => 'en' },{:iclass => "divider",:val=>" ", :lang=>'en'},{:iclass => "", :val=> 'Bahasa',:lang=>'ba', :url=>'/lang/ba'}] 
+            - droplist.each do |litem|
+              %li(class = "#{litem[:iclass]}" role="presentation")
+                %form{:id => litem[:val], :action => litem[:url], 'method' => 'post'} 
+                  %button(type="submit" class="btn btn-link")
+                    = litem[:val]
+

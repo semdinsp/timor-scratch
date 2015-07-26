@@ -1,0 +1,10 @@
+- res=settings.estorm_result_object.get_results(settings.estorm_src,@drawtype)
+- if res.first!=nil and res.first['success']
+  %table(class="table table-hover table-condensed")
+    %tr
+      %th= I18n.translate('results.date')
+      %th= I18n.translate('results.result')
+      - res.first['draws'].each do  | draw| 
+        %tr
+          %td= draw['drawdate']
+          %td= draw['digits']

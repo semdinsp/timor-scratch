@@ -1,0 +1,15 @@
+.panel.panel-success
+  .panel-heading 
+    = I18n.translate('help3030.title')
+  .panel-body
+    %p Commands to get entries
+    - heads = ["command","result"] 
+    - vals= [{cmd: "LANG EN",res: I18n.translate('help3030.lang')},{cmd: "REG fred", res: I18n.translate('help3030.reg')}, {cmd: "SUGGEST 1984",res: I18n.translate('help3030.suggest')},{cmd: "RAMALAN shio",res: I18n.translate('help3030.suggest')},{cmd: "HELP",res: I18n.translate('help3030.help')}]
+    %table(class="table table-hover table-condensed")
+      %tr
+        - heads.each do |h|
+          %th=h
+      - vals.each do |v|
+        %tr
+          %td=v[:cmd]
+          %td=v[:res]

@@ -1,0 +1,48 @@
+%ul
+  /= locals.inspect.to_s
+  - locals[:gallery].each  do |imgs|
+    -if !['.','..','thumbs'].include?(imgs)  then
+      -imgfile=imgs
+      -img_noext=imgfile.split('.').first
+      -imgtitles=img_noext.split('-')
+      / FILENAME order-district-przie-otherinfo.extensions
+      -sport =imgtitles[1] if !imgtitles[1].nil?
+      -name =imgtitles[2] if !imgtitles[1].nil?
+      -freeform =imgtitles[3] if !imgtitles[3].nil?
+      - tooltip= "#{sport}-#{name}"
+      %li.col-lg-4.col-md-4.col-sm-4.col-xs-4.list-unstyled
+        / %a(href="/attachments/winners/#{imgs}")
+        /%a(href="javascript:$("{#imgs}.modal()" )
+        - jfunction="$('#"+img_noext.to_s+"').modal();"
+        %a(href="javascript:void(0)" onclick="#{jfunction}")
+          %img(src="/attachments/athletes/thumbs/#{img_noext}.JPG"  alt="#{tooltip}" title="#{tooltip}")
+      .modal.fade.bs-example-modal-lg(id="#{img_noext}" tabindex="-1" role="dialog" aria-labelledby="#{img_noext}Label" aria-hidden="true")
+        .modal-dialog
+          .modal-content       
+            .modal-header
+              %button(type="button" class="close" data-dismiss="modal" aria-label="Close")
+                %span(aria-hidden="true")
+                  &times;
+              %h4.modal-title(id="#{img_noext}Label" alt="#{tooltip}" title="#{tooltip}")
+                = "Sport: #{sport} Athlete: #{name} Other Info: #{freeform} " 
+            .modal-body  
+              %img.img-responsive(src="/attachments/athletes/#{imgs}") 
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;    
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+  %li.col-lg-2.col-md-2.col-sm-3.col-xs-3.list-unstyled 
+    &nbsp;
+.row                                                                 

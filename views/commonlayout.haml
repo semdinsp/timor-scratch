@@ -1,0 +1,46 @@
+%head
+  %meta(charset="utf-8")
+  / - local_stylesheet_link_tag('local')
+  %link(href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen")
+  %link(href="/css/bootstrap_customization.css" media="screen" rel="stylesheet") 
+  %link(href="/css/firstpage.css" media="screen" rel="stylesheet")
+  - if @description
+    %meta(name="description" content=@description)
+  - if @keywords
+    %meta(name="keywords" content=@keywords)
+  %meta(name="viewport" content="initial-scale=1.0, width=device-width")
+  %title= @title
+  / %link(href="/css/solarized.css" media="screen" rel="stylesheet") 
+  %link(href="/articles.xml" rel="alternate" type="application/atom+xml")
+  <!--fonts by scott -->
+  %link(href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css')
+  %link(href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css')
+  <!--icons by scott -->
+  %link(rel="apple-touch-icon" href="/attachments/icons/ficonabipad72.png" )
+  %link(rel="favicon.ico" href="/attachments/icons/favicon.ico" )
+  %link(rel="apple-touch-icon" sizes="72x72" href="/attachments/icons/ficonabipad72.png" )
+  %link(rel="apple-touch-icon" sizes="114x114" href="/attachments/icons/ficonabipad114.png" )
+  %link(rel="apple-touch-icon" sizes="144x144" href="/attachments/icons/ficonabipad144.png" )
+  /%script(type="text/javascript" src="http://use.typekit.com/nnr4wgc.js")
+  /%script(type="text/javascript")
+  /  var switchTo5x=true;
+  /%script(type="text/javascript" src="http://w.sharethis.com/button/buttons.js")
+  /%script(type="text/javascript")
+  /  stLight.options({publisher: "94204c8a-1409-4b8b-9eb4-04d116e54c2b", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+  /%script(type="text/javascript")
+  /  try{Typekit.load();}catch(e){}
+  = haml :analytics, :layout => false
+  - if false
+    :plain
+      <script type="text/javascript" id="inspectletjs">
+        var __insp = __insp || [];
+        __insp.push(['wid', 1962715361]);
+        (function() {
+          function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspect_nojquery/1962715361.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+          if (window.attachEvent){
+            window.attachEvent('onload', __ldinsp);
+          }else{
+            window.addEventListener('load', __ldinsp, false);
+          }
+        })();
+      </script>

@@ -1,0 +1,20 @@
+Title: Draw Results
+Template: home
+Link text: Draw Results
+
+
+.container
+  .row
+    .col-md-5
+      %h1
+        = I18n.translate('results.4d')
+      - @drawtype='4d'
+      = haml :draw_results, :layout => false
+      = haml :draw_links, :layout => false
+      
+      
+          
+          
+    
+
+

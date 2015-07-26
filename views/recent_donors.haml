@@ -1,0 +1,9 @@
+.panel.panel-success
+  .panel-heading 
+    = "REcent donors"
+  .panel-body
+    %ul
+      -list = ['donor1','donor2']
+      -list.each do  |li|
+        %li 
+          = I18n.translate(li)

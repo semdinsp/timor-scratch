@@ -1,0 +1,9 @@
+.panel.panel-success
+  .panel-heading 
+    = I18n.translate('drachen.title')
+  .panel-body
+    %p= I18n.translate('drachen.service')
+    %a(href="/attachments/license.jpeg")
+      %img( src="/attachments/license.jpeg" width=240 height=240 alt='license logo')
+      %br
+      = I18n.translate('drachen.license')

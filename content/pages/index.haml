@@ -1,0 +1,38 @@
+Template: home
+Link text: Home
+
+.container
+  .row
+    .col-md-offset-2.col-md-6
+      %h1
+        = I18n.translate('index.heading') 
+      %p.lead= I18n.translate('index.para1')
+      %p.lead= I18n.translate('index.para2')
+      %p.lead= I18n.translate('index.para3')
+    .col-md-3
+      = haml :donate_menu, :layout => false
+      = haml :recent_donors, :layout => false
+  .row
+    .col-md-offset-1.col-md-8
+      %a(href="/athletes") 
+        %p= I18n.translate('athletes.title') 
+        - gallerylist2=Dir.entries('./content/attachments/athletes').sample(2)
+        = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist2 }
+        - gallerylist=Dir.entries('./content/attachments/athletes').sample(2)
+        = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist }
+    .col-md-8
+      %a(href="/prizes") 
+        %p= I18n.translate('howtoplay.prizes') 
+        %img{:src=>"attachments/luckyloja.jpg", :width => "240", :height=>"180"}
+  .row
+    .col-md-offset-1.col-md-8
+      %a(href="/how-to-play") 
+        %p= I18n.translate('index.easy') 
+        %img{:src=>"attachments/winners/diliphones.jpg", :width => "230", :height=>"220"}
+
+    
+        /  
+        / =haml :winners_carousel, :layout => false
+        
+
+

@@ -1,0 +1,25 @@
+Title: Donors
+Template: home
+Link text: Donors
+
+
+.container
+  .row
+    .col-md-offset-1.col-md-7
+      %heading
+      %h1
+        = I18n.translate('howtoplay.title')
+      %p= I18n.translate('howtoplay.para1')
+
+  .row
+    .col-md-7
+      %h2= I18n.translate('howtoplay.entries')
+      %p= I18n.translate('howtoplay.para2')
+      %h2= I18n.translate('howtoplay.soldout')
+      %p= I18n.translate('howtoplay.soldout2')
+      
+    .col-md-5
+      = haml :donate_menu, :layout => false
+      = haml :recent_donors, :layout => false
+      = haml :dashboard_menu, :layout => false
+

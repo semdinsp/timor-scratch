@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+%html(lang="en")
+  = haml :commonlayout, :layout => false
+  %body
+    .container
+      = haml :header, :layout => false
+      = yield
+      = haml :footer, :layout => false

@@ -1,0 +1,8 @@
+.panel.panel-success
+  .panel-heading 
+    = I18n.translate('dashboard.title')
+  .panel-body
+    %p
+      = I18n.translate('dashboard.summary')
+      %a(href="http://teds-dashboard-public.herokuapp.com/lotto" ) 
+        %img{:src=>"attachments/dashboard.jpg", :width => "240", :height=>"180", :alt=>"Dashboard"}

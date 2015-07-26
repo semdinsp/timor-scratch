@@ -1,0 +1,6 @@
+%p
+  - list=['4d','3d','2d']
+  - list.delete(@drawtype)
+  - list.each do |i|
+    %a(href="/#{i}")
+      = I18n.translate("results.#{i}")
