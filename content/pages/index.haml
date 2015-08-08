@@ -3,6 +3,13 @@ Link text: Home
 
 .container
   .row
+    .col-md-offset-1.col-md-9
+      .well.well-lg.well-img
+        %h1.txt-xl
+          = I18n.translate('index.ourathletes')
+        %h1.txt-xl
+          = I18n.translate('index.theirdream')
+  .row
     .col-md-offset-2.col-md-6
       %h1
         = I18n.translate('index.heading') 
@@ -28,7 +35,6 @@ Link text: Home
     .col-md-offset-1.col-md-8
       %a(href="/how-to-play") 
         %p= I18n.translate('index.easy') 
-        %img{:src=>"attachments/winners/diliphones.jpg", :width => "230", :height=>"220"}
 
     
         /  

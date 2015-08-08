@@ -17,8 +17,9 @@ en:
     address: "Office Address."
   donate:
     title: "Donate to support our athletes"
-    telk: "Send kd to 97080 rupiah 2200 "
-    xl: "Send kd to yyyy rupiah 2200 "
+    telk: "TELKOMSEL: Send KD to 97080 rupiah 2200 "
+    telkolg: "TELKOMSEL: Send OLG to 97080 rupiah 1100 for multimedia content "
+    xl: "XL: Send KD to yyyy rupiah 2200 "
   commands3d:
     title: "SMS Commands to 3032 50 cents/sms"
     3d: "get a random 3D entry"
@@ -78,6 +79,8 @@ en:
     para3: "With a simple text message, you can donate Rp 2,200/SMS enough to support your athletes to do better in representing Indonesia in any sport events."
     dash: "Real Time Dashboard"
     easy: "Its so easy to play even a cat can do it"
+    ourathletes: "These are our Indonesian Athletes"
+    theirdream: "Lets make their dreams come true!"
     daily: "Daily Winners"
     summary: "TEDS Timor provide electronic distribution of products in Timor Leste and South East Asia.  Currently we provide games tickets, money transfers and payment services."
   t_c:
@@ -97,12 +100,13 @@ en:
     revision: "Terms and conditions may be revised at any point by the operator."
   drachen:
     title: "Drachen Unipessoal Lda"
-    service: "Estorm provides the marketing and operations services to Drachen, Unipressoal Lda a local Timorese company which is licensed to operate SMS Entertainment Services in Timore Leste"
+    service: "PT Estormtek provides the marketing and operations services to Koni which is raising funds for Asian Games 2018"
     license: "License"
   athletes:
     title: "Athletes"
     heading: "Athletes"
     para1: "Our glorious athletes:"
+    para2: "Para2 content"
     unclaimed: "Our athletes need the support of Indonesia and Koni.  Currently funds will go straight to Koni and we hope to soon to also be able to make contributins to charities directed by the athletes."
   results:
     4d: "4D Results"
@@ -110,6 +114,15 @@ en:
     2d: "2D Results"
     result: "Result"
     date: "Draw Date"
+  sponsors:
+    title: 'Sponsors'
+    prizes: 'Prizes'
+    odds: 'Odds of Winning'
+    draws: "Draws"
+    para1: "Playing Lucky Loja is simple send.  Visit one of our distributors and get a ticket from our online system with your favorite number or a quick pick with a system generated number.  $1 per entry."
+    entries: "Entries"
+    para2: "Your tiket will contain your numbers and will state the drawdate and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
+    soldout: "Soldout"
     
     
 
