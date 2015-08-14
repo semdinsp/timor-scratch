@@ -19,7 +19,12 @@ en:
     title: "Donate to support our athletes"
     telk: "TELKOMSEL: Send KD to 97080 rupiah 2200 "
     telkolg: "TELKOMSEL: Send OLG to 97080 rupiah 1100 for multimedia content "
-    xl: "XL: Send KD to yyyy rupiah 2200 "
+    xl: "XL: Send KD to 97080 rupiah 2200 "
+    xlolg: "XL: Send OLG to 97080 rupiah 2200 "
+    recent: "Recent donors"
+    count: "Count"
+    donor: "Donor"
+    todate: "Count to date:"
   commands3d:
     title: "SMS Commands to 3032 50 cents/sms"
     3d: "get a random 3D entry"

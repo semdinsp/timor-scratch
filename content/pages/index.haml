@@ -4,6 +4,14 @@ Link text: Home
 .container
   .row
     .col-md-offset-1.col-md-9
+      .well.well-lg
+        - wb2=EstormLottoTools::WebJsonData.new
+        - count2=wb2.get_donations_count('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
+        %h1.txt-xl
+          = I18n.translate('donate.todate')
+          = count2["count"] if !count2.nil?
+  .row
+    .col-md-offset-1.col-md-9
       .well.well-lg.well-img
         %h1.txt-xl
           = I18n.translate('index.ourathletes')

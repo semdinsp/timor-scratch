@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 source 'https://n6ojjVsAxpecp7UjaAzD@gem.fury.io/semdinsp/'  do
 gem 'estorm_lotto_gem'
-
+gem 'estorm_lotto_tools'
 end
 
 # update to rvm gem 'rack', '1.4.5'
