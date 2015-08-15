@@ -35,14 +35,10 @@ Link text: Home
         = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist2 }
         - gallerylist=Dir.entries('./content/attachments/athletes').sample(2)
         = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist }
-    .col-md-8
-      %a(href="/prizes") 
-        %p= I18n.translate('howtoplay.prizes') 
-        %img{:src=>"attachments/luckyloja.jpg", :width => "240", :height=>"180"}
   .row
     .col-md-offset-1.col-md-8
-      %a(href="/how-to-play") 
-        %p= I18n.translate('index.easy') 
+      %a(href="/sponsors") 
+        %p= I18n.translate('sponsors.title') 
 
     
         /  
