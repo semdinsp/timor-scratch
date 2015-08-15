@@ -1,4 +1,14 @@
 en:
+  donors:
+    title: 'Our Donors'
+    thanks: 'We thank our donors for their contribution to nation building.'
+    odds: 'Odds of Winning'
+    draws: "Draws"
+    para1: "Money from your donation goes to Koni to help Koni support our athletes."
+    entries: "Entries"
+  sponsors:
+    title: 'Sponsors'
+    thanks: 'Our sponsors are as follows.'
   howtoplay:
     title: 'How To Play'
     prizes: 'Prizes'
@@ -11,10 +21,9 @@ en:
     soldout2: "Sometimes a number has been sold out.  If this is the case you will recieve notification that the number is sold out and a new random entry will be created.  The draw table has a fixed number of entries which can be sold and a number is sold out when there is more entries than the fixed number.  The sold out feature ensures that the operator can pay all winners and is a benefit to the player."
   contact:
     title: "Contact/Legal"
-    cs: "For further information about Lucky Loja visit our office at Landmark Plaza"
-    estorm: "Our local Office Manager is Mr Joaozinho Mashado. Please contact him at joaozinho@estormtech.com. (He is available at our office  at Landmard 9-12 on weekdays). Or contact estorm at info@estormtech.com"
-    office: "Our  office address is at Konnekto at 2nd Floor of Landmark Plaza (02-06)."
-    address: "Office Address."
+    cs: "For further information about Koni Donasi send us an email info@estormtech.com"
+    office: "Our virtual office address is at Office 8 building Jakarta."
+    address: "Address"
   donate:
     title: "Donate to support our athletes"
     telk: "TELKOMSEL: Send KD to 97080 rupiah 2200 "

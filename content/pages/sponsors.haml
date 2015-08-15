@@ -5,19 +5,11 @@ Link text: Sponsors
 
 .container
   .row
-    .col-md-offset-1.col-md-7
+    .col-md-offset-1.col-md-6
       %heading
       %h1
         = I18n.translate('sponsors.title')
-      %p= I18n.translate('howtoplay.para1')
-
-  .row
-    .col-md-7
-      %h2= I18n.translate('howtoplay.entries')
-      %p= I18n.translate('howtoplay.para2')
-      %h2= I18n.translate('howtoplay.soldout')
-      %p= I18n.translate('howtoplay.soldout2')
-      
+      %p= I18n.translate('sponsors.para1')
     .col-md-5
       = haml :donate_menu, :layout => false
 

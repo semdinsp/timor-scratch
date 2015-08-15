@@ -3,4 +3,3 @@ donors
 content
 sponsors
 athletes
-about
