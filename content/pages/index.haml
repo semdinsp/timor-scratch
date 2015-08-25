@@ -7,7 +7,7 @@ Link text: Home
       %div.block.text-center
         %h1.block-title
           = I18n.translate('index.ourathletes')
-        %h4
+        %h3
           = I18n.translate('index.theirdream')
   .row
     .col-md-offset-1.col-md-9
@@ -23,7 +23,7 @@ Link text: Home
       = haml :donate_menu, :layout => false
       = haml :recent_donors, :layout => false
   .row
-    .col-md-offset-1.col-md-8
+    .col-md-offset-1.col-md-6
       %a(href="/athletes") 
         %p= I18n.translate('athletes.title') 
         - gallerylist2=Dir.entries('./content/attachments/athletes').sample(2)
@@ -31,13 +31,18 @@ Link text: Home
         - gallerylist=Dir.entries('./content/attachments/athletes').sample(2)
         = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist }
   .row
-    .col-md-offset-1.col-md-8
+    .col-md-offset-1.col-md-6
       %a(href="/sponsors") 
         %p= I18n.translate('sponsors.title') 
+      %hr
+      = haml :sponsors_carousel, :layout => false
+  .row
+    .col-md-offset-1.col-md-5
+      %a(href="/donors") 
+        %p= I18n.translate('donate.howto') 
+      %img.img-responsive(src="/attachments/donate_how.png" title="how to donate" alt="how to donate")
+      
 
-    
-        /  
-        / =haml :winners_carousel, :layout => false
         
 
 

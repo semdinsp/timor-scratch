@@ -36,6 +36,7 @@ en:
     todate: "Donations"
     donor_count: "Donors"
     yoursupport: "Your support to date:"
+    howto: "How to donate"
   commands3d:
     title: "SMS Commands to 3032 50 cents/sms"
     3d: "get a random 3D entry"
@@ -131,7 +132,7 @@ en:
     result: "Result"
     date: "Draw Date"
   sponsors:
-    title: 'Sponsors'
+    title: 'Sponsors and Partners'
     prizes: 'Prizes'
     odds: 'Odds of Winning'
     draws: "Draws"
@@ -139,6 +140,9 @@ en:
     entries: "Entries"
     para2: "Your tiket will contain your numbers and will state the drawdate and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
     soldout: "Soldout"
+  footer:
+    copy: "Copyright and legal"
+    service: "A marketing service provided by PT Estormtek Indonesia on behalf of "
     
     
 

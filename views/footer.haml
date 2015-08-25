@@ -1,7 +1,7 @@
 .row
   .col-md-offset-7.col-md-3
     %p 
-      A marketing service provided by PT Estormtek Indonesia on behalf of 
+      = I18n.translate('footer.service')
       %a(href="http://koni.or.id/")
         Koni
 .row
@@ -9,16 +9,16 @@
 %br
 .footer
   #accordionFoot.panel-group
-    .panel.panel-default
+    .panel.panel-bold.panel-info
       .panel-heading
-        %h5.panel-title
+        %h4.panel-title
           %a{:class=>"accordion-toggle", "data-toggle"=>"collapse" , "data-parent"=>"#accordianFoot", "data-target"=>"#collapseFootOne"}
-            %small
-              Copyright and Legal
+            = I18n.translate('footer.copy')
       #collapseFootOne.panel-collapse.collapse
         .panel-body
           %p 
-            PT Estormtek Indonesia provides marketing and operational services on behalf of 
+            PT Estormtek Indonesia 
+            = I18n.translate('footer.service')
             %a(href='http://koni.or.id/')
               %h6 KONI
           %img(src="/attachments/estorm.jpg" class="img-responsive" alt='estorm logo')

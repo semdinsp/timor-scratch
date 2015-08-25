@@ -11,19 +11,19 @@
       12,932
     %small.delta-indicator.delta-positive
       5% day on day
-  %span.statcard-desc.text-center
+  %span.statcard-desc
     = I18n.translate('donate.todate')
-%div.statcard.statcard-success.p-a-md.m-b
+%div.statcard.statcard-success.p-a-md.m-b.text-center
   - wb=EstormLottoTools::WebJsonData.new
   - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
-  %h3.statcard-number.text-center
+  %h3.statcard-number
     - if !list.nil? 
       = list.size
     - else
       600
     %small.delta-indicator.delta-positive
       4% day on day
-  %span.statcard-desc.text-center
+  %span.statcard-desc
     = I18n.translate('donate.donor_count')
 
          

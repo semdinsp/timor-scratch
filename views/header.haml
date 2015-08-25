@@ -8,7 +8,7 @@
       .span
         %img( src="/attachments/estorm.jpg" width=23 height=23 alt='estorm logo')
         = @heading
-    .navbar-collapse.collapse.navbar-ex-collapse.pull-right
+    .navbar-collapse.collapse.navbar-ex-collapse.pull-right    
       - display_menu(@menu_items, :class => "nav navbar-nav", :levels => 1)
       -langs=['ba','en']
       -langs.each do |lang|
@@ -17,5 +17,6 @@
             %button(type="submit" class="btn btn-link")
               %img(src="/attachments/flags/#{lang}.png" height=20 width=40)
         .col-xs-1
+
 
 

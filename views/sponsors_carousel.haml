@@ -1,17 +1,25 @@
-#carousel-sponsors(class="carousel carousel-light slide" data-ride="carousel" data-interval=5000)
+#carousel-sponsors(class="carousel carousel-light slide" data-ride="carousel" data-interval=4000)
   %ol.carousel-indicators
     %li(data-target="#carousel-sponsors" data-slide-to="0" class="active")
-    - 1.upto(2) do |i|
-      %li(data-target="#carousel-example" data-slide-to="#{i}" )
+    - 1.upto(3) do |i|
+      %li(data-target="#carousel-sponsors" data-slide-to="#{i}" )
   .carousel-inner
     .item.active
-      %img(src="/attachments/winners/lospalos-3000.jpg" alt="$3000 winner")
+      %img.img-responsive(src="/attachments/sponsors/koni.png" title="Koni" alt="Koni")
       .carousel-caption
-        %h2.text-primary 2 3000 winners from lospalos Nov 5
+        %h2.text-primary Koni
     .item
-      %img(src="/attachments/winners/bobo_3000_hat.JPG" alt="$3000 winner")
+      %img.img-responsive(src="/attachments/sponsors/s711.png" title="7-11 stores" alt="7-11")
       .carousel-caption
-        %h2.text-primary 3000 winner from Bobonaro July 14
+        %h2.text-primary 7-11 Stores in Jakarta
+    .item
+      %img.img-responsive(src="/attachments/sponsors/xl.png" title="xl" alt="xl")
+      .carousel-caption
+        %h2.text-primary xl
+    .item
+      %img.img-responsive(src="/attachments/sponsors/tcel.png" title="telkomsel" alt="telkomsel")
+      .carousel-caption
+        %h2.text-primary Telkomsel
   %a(class="left carousel-control" href="#carousel-sponsors" data-slide="prev" role="button")
     %span(class="icon icon-chevron-thin-left" aria-hidden="true")
     %span(class="sr-only")
@@ -19,4 +27,4 @@
   %a(class="right carousel-control" href="#carousel-sponsors" data-slide="next" role="button")
     %span(class="icon icon-chevron-thin-right" aria-hidden="true")
     %span(class="sr-only")
-      Previous
+      Next

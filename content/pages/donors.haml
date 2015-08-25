@@ -10,8 +10,8 @@ Link text: Donors
       %h1
         = I18n.translate('donors.title')
       %p= I18n.translate('donors.thanks')
-      %p= I18n.translate('donors.para1')      
+      %p= I18n.translate('donors.para1')  
+      = haml :recent_donors, :layout => false    
     .col-md-5
       = haml :donate_menu, :layout => false
-      = haml :recent_donors, :layout => false
 
