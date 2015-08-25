@@ -5,7 +5,9 @@
     %hr
     %ul
       - wb=EstormLottoTools::WebJsonData.new
-      - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
+      - res =wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
+      - list= {}
+      - list= wb.obfuscate_keys(res) if !res.nil? 
       %table(class="table table-hover table-condensed")
         %tr
           %th 
