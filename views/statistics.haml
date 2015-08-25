@@ -1,29 +1,35 @@
-%h1.text-center
-  = I18n.translate('donate.yoursupport')
-%div.statcard.statcard-primary.p-a-md.m-b
-  - wb2=EstormLottoTools::WebJsonData.new
-  - count2=wb2.get_donations_count('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
-  %h3.statcard-number
-    / = count2.inspect.to_s
-    - if !count2.nil? and !count2['count'].nil?
-      = count2["count"]
-    - else
-      12,932
-    %small.delta-indicator.delta-positive
-      5% day on day
-  %span.statcard-desc
-    = I18n.translate('donate.todate')
-%div.statcard.statcard-success.p-a-md.m-b.text-center
-  - wb=EstormLottoTools::WebJsonData.new
-  - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
-  %h3.statcard-number
-    - if !list.nil? 
-      = list.size
-    - else
-      600
-    %small.delta-indicator.delta-positive
-      4% day on day
-  %span.statcard-desc
-    = I18n.translate('donate.donor_count')
+.row
+  .col-md-6
+    %h1.text-center
+      = I18n.translate('donate.yoursupport')
+      %span.icon.icon-thumbs-up
+.row
+  .col-sm-6
+    %div.statcard.statcard-primary.p-a-md.m-b
+      - wb2=EstormLottoTools::WebJsonData.new
+      - count2=wb2.get_donations_count('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
+      %h3.statcard-number
+        / = count2.inspect.to_s
+        - if !count2.nil? and !count2['count'].nil?
+          = count2["count"]
+        - else
+          12,932
+        %small.delta-indicator.delta-positive
+          5% day on day
+      %span.statcard-desc
+        = I18n.translate('donate.todate')
+  .col-sm-6
+    %div.statcard.statcard-success.p-a-md.m-b
+      - wb=EstormLottoTools::WebJsonData.new
+      - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
+      %h3.statcard-number
+        - if !list.nil? 
+          = list.size
+        - else
+          600
+        %small.delta-indicator.delta-positive
+          4% day on day
+      %span.statcard-desc
+        = I18n.translate('donate.donor_count')
 
          
