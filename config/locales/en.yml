@@ -35,7 +35,7 @@ en:
     donor: "Donor"
     todate: "Donations"
     donor_count: "Donors"
-    your_support: "Your support:"
+    yoursupport: "Your support to date:"
   commands3d:
     title: "SMS Commands to 3032 50 cents/sms"
     3d: "get a random 3D entry"
@@ -91,7 +91,7 @@ en:
   index:
     heading: "Koni Donation Program"
     para1: "KONI DONASI (KD) program is collaborated between KONI (Komittee Olah Raga Nasional Indonesia)- PT EstormTek Indonesia and supported by Telco provider in Indonesia (Telkomsel) to help KONI fundraising to support Indonesian athletes to achieve better facilities in sports training and upcoming events such as SEA GAMES 2018, ASIAN GAMES 2018 and many more."
-    para2: "This Donation program starts with the SMS KONI donation and launched on August 2015. We work with one of the biggest telco provide in Indonesia, TELKOMSEL as a SMS platform provider."
+    para2: "This Donation program starts with the SMS KONI donation and launched on August 2015. We work with some of the biggest telco provide in Indonesia, TELKOMSEL and XL as a SMS platform providers."
     para3: "With a simple text message, you can donate Rp 2,200/SMS enough to support your athletes to do better in representing Indonesia in any sport events."
     dash: "Real Time Dashboard"
     easy: "Its so easy to play even a cat can do it"

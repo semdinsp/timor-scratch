@@ -4,7 +4,6 @@
       = I18n.translate('donate.recent')
     %hr
     %ul
-      -list = ['donor1','donor2']
       - wb=EstormLottoTools::WebJsonData.new
       - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
       %table(class="table table-hover table-condensed")

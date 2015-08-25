@@ -4,17 +4,21 @@
   - wb2=EstormLottoTools::WebJsonData.new
   - count2=wb2.get_donations_count('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
   %h3.statcard-number
-    - if !count2.nil? and count2['success']
+    / = count2.inspect.to_s
+    - if !count2.nil? and !count2['count'].nil?
       = count2["count"]
     - else
       12,932
     %small.delta-indicator.delta-positive
       5% day on day
-  %span.statcard-desc
+  %span.statcard-desc.text-center
     = I18n.translate('donate.todate')
+%div.statcard.statcard-success.p-a-md.m-b
+  - wb=EstormLottoTools::WebJsonData.new
+  - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
   %h3.statcard-number.text-center
-    - if !count2.nil? and count2['success']
-      = count2["count"]
+    - if !list.nil? 
+      = list.size
     - else
       600
     %small.delta-indicator.delta-positive
