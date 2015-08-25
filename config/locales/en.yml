@@ -33,7 +33,9 @@ en:
     recent: "Recent donors"
     count: "Count"
     donor: "Donor"
-    todate: "Count to date:"
+    todate: "Donations"
+    donor_count: "Donors"
+    your_support: "Your support:"
   commands3d:
     title: "SMS Commands to 3032 50 cents/sms"
     3d: "get a random 3D entry"
@@ -133,7 +135,7 @@ en:
     prizes: 'Prizes'
     odds: 'Odds of Winning'
     draws: "Draws"
-    para1: "Playing Lucky Loja is simple send.  Visit one of our distributors and get a ticket from our online system with your favorite number or a quick pick with a system generated number.  $1 per entry."
+    para1: "We are only able to make a contributin to Koni with the help of our sponors.  To all our sponsors, you for your support."
     entries: "Entries"
     para2: "Your tiket will contain your numbers and will state the drawdate and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
     soldout: "Soldout"

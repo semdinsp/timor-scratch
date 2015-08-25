@@ -1,0 +1,18 @@
+.panel.panel-success
+  .panel-heading 
+    = I18n.translate('donate.recent')
+  .panel-body
+    %ul
+      -list = ['donor1','donor2']
+      - wb=EstormLottoTools::WebJsonData.new
+      - list=wb.get_donators_list('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
+      %table(class="table table-hover table-condensed")
+        %tr
+          %th 
+            = I18n.translate('donate.donor')
+          %th 
+            = I18n.translate('donate.count')
+        -list.each do  |li|
+          %tr
+            %td= li[0]
+            %td= li[1]

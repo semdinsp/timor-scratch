@@ -1,7 +1,8 @@
-.panel.panel-success
-  .panel-heading 
-    = I18n.translate('donate.recent')
-  .panel-body
+.panel.panel-bold.panel-info
+  .panel-body.p-b-lg
+    %h3.m-y-0
+      = I18n.translate('donate.recent')
+    %hr
     %ul
       -list = ['donor1','donor2']
       - wb=EstormLottoTools::WebJsonData.new

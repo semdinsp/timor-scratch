@@ -1,22 +1,17 @@
 Template: home
 Link text: Home
 
-.container
+.container.fluid
   .row
     .col-md-offset-1.col-md-9
-      .well.well-lg
-        - wb2=EstormLottoTools::WebJsonData.new
-        - count2=wb2.get_donations_count('estorm-sms','stxpgBdjcrWt9iAZUAyZ')
-        %h1.txt-xl
-          = I18n.translate('donate.todate')
-          = count2["count"] if !count2.nil?
-  .row
-    .col-md-offset-1.col-md-9
-      .well.well-lg.well-img
-        %h1.txt-xl
+      %div.block.text-center
+        %h1.block-title
           = I18n.translate('index.ourathletes')
-        %h1.txt-xl
+        %h4
           = I18n.translate('index.theirdream')
+  .row
+    .col-md-offset-1.col-md-9
+      = haml :statistics, :layout => false
   .row
     .col-md-offset-2.col-md-6
       %h1

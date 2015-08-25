@@ -1,14 +1,15 @@
 %head
   %meta(charset="utf-8")
+  %meta(http-equiv="X-UA-Compatible" content="IE=edge")
+  %meta(name="viewport" content="initial-scale=1, width=device-width")
+  
   / - local_stylesheet_link_tag('local')
-  %link(href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen")
-  %link(href="/css/bootstrap_customization.css" media="screen" rel="stylesheet") 
-  %link(href="/css/firstpage.css" media="screen" rel="stylesheet")
+  %link(href="/bootstrap/dist/toolkit-minimal.css" rel="stylesheet" media="screen")
+  /%link(href="/css/bootstrap_customization.css" media="screen" rel="stylesheet") 
   - if @description
     %meta(name="description" content=@description)
   - if @keywords
     %meta(name="keywords" content=@keywords)
-  %meta(name="viewport" content="initial-scale=1.0, width=device-width")
   %title= @title
   / %link(href="/css/solarized.css" media="screen" rel="stylesheet") 
   %link(href="/articles.xml" rel="alternate" type="application/atom+xml")

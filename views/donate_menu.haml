@@ -1,10 +1,10 @@
-.panel.panel-success
-  .panel-heading 
-    = I18n.translate('donate.title')
-  .panel-body
+.panel.panel-bold.panel-info
+  .panel-body.p-b-lg
+    %h3.m-y-0
+      = I18n.translate('donate.title')
+    %hr
     %ul
       -list = ['donate.telk','donate.telkolg','donate.xl','donate.xlolg']
       -list.each do  |li|
-        %li 
+        %li.m-y-0
           = I18n.translate(li)
-

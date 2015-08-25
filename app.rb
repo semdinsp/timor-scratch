@@ -9,7 +9,7 @@ module Nesta
     not_found do
        haml("404".to_sym)
     end
-    set :session_secret, "tl-lotto-web"
+    set :session_secret, "koni-donasi-web"
     enable :sessions
     before do
           #puts "session is #{session.inspect}"
@@ -23,7 +23,7 @@ module Nesta
         I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
         I18n.load_path=Dir[File.join(settings.root, 'config/locales', '*.yml')]
         I18n.backend.load_translations
-        I18n.locale = 'en'
+        I18n.locale = 'ba'
         set :estorm_src, 'teds_web_service'
         @wb=EstormLottoGem::WbDrawResults.new
         @wb.set_host(ESTORMHOST)
