@@ -148,6 +148,11 @@ en:
     para1:  "We are working hard to get more content up on the website.  We plan to have this in the next few days."
     para2: "Social media integration and news feeds should also be working shortly"
     market: "Various marketing campaigns"
+  promo:
+    title: "Latest promo Buy 1 get 1 free"
+    source: "from 7-11 stores"  
+    details: "Send SMS 'KD 711' to 97080 to get 'BUY 1 GET 1 FREE'"
+  
     
     
 
