@@ -1,7 +1,7 @@
-#carousel-sponsors(class="carousel carousel-light slide" data-ride="carousel" data-interval=4000)
+#carousel-sponsors(class="carousel carousel-light slide" data-ride="carousel" data-interval=3500)
   %ol.carousel-indicators
     %li(data-target="#carousel-sponsors" data-slide-to="0" class="active")
-    - 1.upto(3) do |i|
+    - 1.upto(4) do |i|
       %li(data-target="#carousel-sponsors" data-slide-to="#{i}" )
   .carousel-inner
     .item.active
@@ -21,7 +21,7 @@
       .carousel-caption
         %h2.text-primary Telkomsel
     .item
-      %img.img-responsive(src="/attachments/sponsors/eagle.png" title="telkomsel" alt="telkomsel")
+      %img.img-responsive(src="/attachments/sponsors/eagle.png" title="eagle" alt="eagle")
       .carousel-caption
         %h2.text-primary Eagle
   %a(class="left carousel-control" href="#carousel-sponsors" data-slide="prev" role="button")
