@@ -4,6 +4,17 @@ require 'i18n/backend/fallbacks'
 require 'bundler'
 Bundler.require
 ESTORMHOST='estorm-sms.herokuapp.com'
+
+module Nesta
+  module Navigation
+    module Renderers
+      def current_menu_item_class
+              'active'
+            end
+    end
+  end
+end
+
 module Nesta
   class App
     not_found do
