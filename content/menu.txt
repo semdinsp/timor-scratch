@@ -1,5 +1,3 @@
 /
-donors
-athletes
-content
-sponsors
+stores
+products

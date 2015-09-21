@@ -7,13 +7,13 @@
           %span.icon-bar
       %a(class="navbar-brand" href="/")
         .span
-          %img( src="/attachments/estorm.jpg" width=23 height=23 alt='estorm logo')
+          %img( src="/attachments/seadutyfree.jpg" width=23 height=23 alt='sea duty free logo')
           %h5
             %strong
               = @heading
     .navbar-collapse.collapse(id="navbar-ex-collapse")    
       - display_menu(@menu_items, :class => "nav nav-bordered h4", :levels => 1)
-      -langs=['en','ba']
+      -langs=['en','ba','tet']
       -langs.each do |lang|
         .col-xs-1.pull-right
           %form{ :action => "/lang/#{lang}", 'method' => 'post'} 

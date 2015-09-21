@@ -1,8 +1,8 @@
 # Title and subheading for your site. Used on the home page and in page
 # titles.
 #
-title: "Koni Donasi"
-subtitle: "Support Indoneisa athletes at the Asian games 2018"
+title: "Sea Duty Free"
+subtitle: "Duty free stores in Timor Leste"
 
 # You should really specify your content's author when generating an
 # Atom feed. Specify at least one of name, uri or email, and Nesta will
@@ -12,8 +12,8 @@ subtitle: "Support Indoneisa athletes at the Asian games 2018"
 #
 author:
    name: Scott Sproule
-   uri: http://www.estormtech.com
-   email: info@estormtech.com
+   uri: http://www.sea-ent.com
+   email: scott.sproule@sea-ent.com
 
 # You can stick with the default look and feel, or use a theme. Themes are
 # easy to create or install, and live inside the themes directory. You
