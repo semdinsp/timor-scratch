@@ -6,6 +6,7 @@ en:
     para1: 'Para 1'
   index:
     dutyfree: "Duty free stores in Timor Leste"
+    comingsoon: "Coming Soon"
     para1: "KONI DONASI (KD) program is collaborated between KONI (Komittee Olah Raga Nasional Indonesia)- PT EstormTek Indonesia and supported by Telco provider in Indonesia (Telkomsel) to help KONI fundraising to support Indonesian athletes to achieve better facilities in sports training and upcoming events such as SEA GAMES 2018, ASIAN GAMES 2018 and many more."
     para2: "This Donation program starts with the SMS KONI donation and launched on August 2015. We work with some of the biggest telco provide in Indonesia, TELKOMSEL and XL as a SMS platform providers."
     para3: "With a simple text message, you can donate Rp 2,200/SMS enough to support your athletes to do better in representing Indonesia in any sport events."
@@ -30,24 +31,8 @@ en:
     term9: "Prizes are based on the number of digits matched from right to left.  Match 1 is match 1 digit on the right.  Match 4 is match all 4 digits from right to left.  Match 2 and 3 are similar. A single entry can only win one prize and that prize is the largest possible. For the avoidance of doubt an entry who matches 4 digits gets the 4 digit prize and not the match 3 and match 2 digit prizes."
     term10: "Prizes wll only be awarded if they ticket is valid and in the electronic system. Fraudulent access to the system voids any prizes and system error will void all entries."
     revision: "Terms and conditions may be revised at any point by the operator."
-  drachen:
-    title: "Drachen Unipessoal Lda"
-    service: "PT Estormtek provides the marketing and operations services to Koni which is raising funds for Asian Games 2018"
-    license: "License"
-  athletes:
-    title: "Athletes"
-    heading: "Athletes"
-    para1: "Our glorious athletes:"
-    para2: "Go team!"
-    unclaimed: "Our athletes need the support of Indonesia and Koni.  Currently funds will go straight to Koni and we hope to soon to also be able to make contributins to charities directed by the athletes."
-  results:
-    4d: "4D Results"
-    3d: "3D Results"
-    2d: "2D Results"
-    result: "Result"
-    date: "Draw Date"
-  sponsors:
-    title: 'Sponsors and Partners'
+  products:
+    title: 'Products'
     prizes: 'Prizes'
     odds: 'Odds of Winning'
     draws: "Draws"

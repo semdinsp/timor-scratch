@@ -8,43 +8,8 @@ Link text: Home
         %h1.block-title
           = I18n.translate('index.dutyfree')
         %h3
-          = I18n.translate('index.theirdream')
-  .row
-    .col-md-offset-1.col-md-9
-      = haml :statistics, :layout => false
-  .row
-    .col-md-offset-1.col-md-9
-      = haml :promo, :layout => false
-  .row
-    .col-md-offset-2.col-md-6
-      %h1
-        = I18n.translate('index.heading') 
-      %p.lead= I18n.translate('index.para1')
-      %p.lead= I18n.translate('index.para2')
-      %p.lead= I18n.translate('index.para3')
-    .col-md-4
-      = haml :donate_menu, :layout => false
-      = haml :recent_donors, :layout => false
-  .row
-    .col-md-offset-1.col-md-6
-      %a(href="/athletes") 
-        %p= I18n.translate('athletes.title') 
-        - gallerylist2=Dir.entries('./content/attachments/athletes').sample(2)
-        = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist2 }
-        - gallerylist=Dir.entries('./content/attachments/athletes').sample(2)
-        = haml :athletes_gallery, :layout => false, :locals => {:gallery => gallerylist }
-  .row
-    .col-md-offset-1.col-md-6
-      %a(href="/sponsors") 
-        %p= I18n.translate('sponsors.title') 
-      %hr
-      = haml :sponsors_carousel, :layout => false
-  .row
-    .col-md-offset-1.col-md-5
-      %a(href="/donors") 
-        %p= I18n.translate('donate.howto') 
-      %img.img-responsive(src="/attachments/donate_how.png" data-action="zoom"  title="how to donate" alt="how to donate")
-      
+          = I18n.translate('index.comingsoon')
+  
 
         
 
