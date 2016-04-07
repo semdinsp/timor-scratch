@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 
 Bundler.require(:default)
+use Rack::Deflater
 
 use Rack::ConditionalGet
 use Rack::ETag
