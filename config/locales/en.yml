@@ -9,6 +9,7 @@ en:
   index:
     dutyfree: "Duty free stores in Timor Leste"
     comingsoon: "Coming Soon"
+    openjune: "Opening Late June 2016"
     nowopen: "Batugade store is now open"
     batugade: "Batugade"
     online: "Visit our online store to see products and pricing"
@@ -54,10 +55,12 @@ en:
     para1:  "We are working hard to get more content up on the website.  We plan to have this in the next few days."
     para2: "Social media integration and news feeds should also be working shortly"
     market: "Various marketing campaigns"
-  promo:
-    title: "Latest promo Buy 1 get 1 free"
-    source: "from 7-11 stores"  
-    details: "Send SMS 'KD 711' to 97080 to get 'BUY 1 GET 1 FREE'"
+  contact:
+    title: "About Us/Jobs"
+    address: Dili Address
+    office: "Landmark Plaza, Dili, Timor Leste"
+    email: "info@seadutyfree.com"
+    jobs: "Jobs"
   
     
     
