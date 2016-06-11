@@ -20,7 +20,8 @@ Summary: Informaton about jobs and the company
       %h2= I18n.translate('contact.address')
       %address
         = I18n.translate('contact.office')
-        = I18n.translate('contact.email')
+        %a(href="mailto://info@seadutyfree.com")
+          = I18n.translate('contact.email')
       %h2= I18n.translate('contact.jobs')
       %p In general we hire locally.  Currently our employed staff are 100% Timorese. This may change at experienced business managers are currently hard to find in Timor.  We are proud of our efforts to build capacity in our Staff.
       %h3  Philosophy
