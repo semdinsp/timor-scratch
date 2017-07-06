@@ -20,7 +20,8 @@ module Nesta
     not_found do
        haml("404".to_sym)
     end
-    set :session_secret, "koni-donasi-web"
+    set :session_secret, "timor-scratch-web"
+    Haml::TempleEngine.disable_option_validator! 
     enable :sessions
     before do
           #puts "session is #{session.inspect}"

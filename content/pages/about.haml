@@ -1,7 +1,7 @@
 Categories: contact
 Title: About Us/Jobs
 Template: home
-Summary: Informaton about jobs and the company
+Summary: Informaton about jobs and contact details
 
 .container
   .row
@@ -9,6 +9,9 @@ Summary: Informaton about jobs and the company
       %h1
         = I18n.translate('contact.title')
       %p
-        We are  small Timorese owned company with business partners from Singapore Teddy Lotere license is issued by MTCI.
+        We are  small Timorese owned company with experienced gaming business partners from Singapore. The Teddy Lotere license is issued by MTCI and we pay both winners tax and social gaming taxes to the Timorese Government
+      = haml :contact_card, :layout=> false
+      %h1 &nbsp;
+      = haml :contact_map, :layout=> false
 
   

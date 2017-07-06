@@ -1,0 +1,16 @@
+Categories: games
+Title: Games
+Template: home
+Summary: Information our games
+
+.container
+  .row
+    .col-md-9
+      %h1
+        = I18n.translate('games.shorttitle')
+      - ['lafaek','dream'].each do |game|
+        = haml :game_card, :layout=> false, :locals => {:name => game}
+      %h1 &nbsp;
+     
+
+  

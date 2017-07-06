@@ -18,6 +18,8 @@ Link text: Home
             %h2
               %a(href="https://www.timor-scratch.com/" class="btn btn-sm btn-info")
                 = I18n.translate('index.online')
+      - ['lafaek','dream'].each do |game|
+        = haml :game_card, :layout=> false, :locals => {:name => game}
   
 
         
