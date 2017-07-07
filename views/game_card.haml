@@ -1,12 +1,16 @@
-.col-md-7.col-xs-7
-  .card.card-primary.card-inverse
-    .card-header
-      %img.card-img-top(src="/attachments/#{locals[:name]}.jpg" alt="Game image cap")
-    .card-block
-      %h1.cardtitle
-        = I18n.translate("#{locals[:name]}.information")
-      %h2 
-        = I18n.translate("games.htp")
-      %h3
-        = I18n.translate("#{locals[:name]}.howtoplay")
+.card.card-outline-primary.mb-3.text-center
+  .card-header
+    %img.card-img-top(src="/attachments/#{locals[:name]}.jpg" alt="Game image cap")
+  .card-block
+    %h1.card-title
+      = I18n.translate("#{locals[:name]}.information")
+    %h2 
+      = I18n.translate("games.price")
+      %span
+        %strong
+          = I18n.translate("#{locals[:name]}.tixprice")
+    %h2 
+      = I18n.translate("games.htp")
+    %h3
+      = I18n.translate("#{locals[:name]}.howtoplay")
       

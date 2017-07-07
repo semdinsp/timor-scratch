@@ -67,12 +67,15 @@ en:
     title: "Learn about our games"
     htp: "How to Play"
     shorttitle: "Games"
+    price: "Ticket Price:"
   lafaek:
     howtoplay: "Match  3 symbols on the card and win the prize amount.  Symbols do not have to be in rows or columns to win"
     information: "Lafaek Information"
+    tixprice: "50 cents"
   dream:
     howtoplay: "Reveal the prize number and match it in the prize panel to win the prize.  Multiple wins per card are possible"
     information: "Dream Information"
+    tixprice: "$1 dollar"
   
     
     
