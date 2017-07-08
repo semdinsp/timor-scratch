@@ -1,10 +1,9 @@
 %head
   %meta(charset="utf-8")
   %meta(http-equiv="X-UA-Compatible" content="IE=edge")
-  %meta(name="viewport" content="initial-scale=1, width=device-width")
-  
+  %meta(name="viewport" content="initial-scale=1, width=device-width")  
   / - local_stylesheet_link_tag('local')
-  %link(href="/bootstrap/dist/toolkit-minimal.css" rel="stylesheet" media="screen")
+  %link(href="/bootstrap/dist/toolkit-minimal.css" rel="stylesheet" )
   /%link(href="/css/bootstrap_customization.css" media="screen" rel="stylesheet") 
   - if @description
     %meta(name="description" content=@description)
@@ -13,9 +12,10 @@
   %title= @title
   / %link(href="/css/solarized.css" media="screen" rel="stylesheet") 
   %link(href="/articles.xml" rel="alternate" type="application/atom+xml")
-  <!--fonts by scott -->
+  <!--fonts by scott 
   %link(href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css')
   %link(href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css')
+  stop by scott -->
   <!--icons by scott -->
   %link(rel="apple-touch-icon" href="/attachments/icons/ficonabipad72.png" )
   %link(rel="favicon.ico" href="/attachments/icons/favicon.ico" )
@@ -31,17 +31,4 @@
   /%script(type="text/javascript")
   /  try{Typekit.load();}catch(e){}
   = haml :analytics, :layout => false
-  - if false
-    :plain
-      <script type="text/javascript" id="inspectletjs">
-        var __insp = __insp || [];
-        __insp.push(['wid', 1962715361]);
-        (function() {
-          function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspect_nojquery/1962715361.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
-          if (window.attachEvent){
-            window.attachEvent('onload', __ldinsp);
-          }else{
-            window.addEventListener('load', __ldinsp, false);
-          }
-        })();
-      </script>
+  

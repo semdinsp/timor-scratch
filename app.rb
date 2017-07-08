@@ -11,6 +11,23 @@ module Nesta
       def current_menu_item_class
               'active'
             end
+            
+      def display_menu_item(item, options = {})
+             if item.respond_to?(:each)
+               if (options[:levels] - 1) > 0
+                 haml_tag :li do
+                   display_menu(item, levels: (options[:levels] - 1))
+                 end
+               end
+             else
+               html_class = current_item?(item) ? current_menu_item_class : nil
+               haml_tag :li, class: "nav-item #{html_class}" do
+                 haml_tag :a, :<, href: path_to(item.abspath), class: "nav-link" do
+                   haml_concat link_text(item)
+                 end
+               end
+             end
+           end
     end
   end
 end
