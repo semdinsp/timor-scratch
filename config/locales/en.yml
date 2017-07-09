@@ -1,12 +1,4 @@
 en:
-  stores:
-    title: 'Our Stores'
-    batugade: 'Batugade'
-    salele: "Salele"
-    oecussi: "Oe-Cussi"
-    airport: "Presidente Nicolau Lobato International Airport"
-    map: 'Map'
-    para1: 'Para 1'
   index:
     ts: "Timor Scratch"
     comingsoon: "Almost here!"
@@ -48,22 +40,20 @@ en:
     draws: "Draws"
     para1: "We are only able to make a contributin to Koni with the help of our sponors.  To all our sponsors, thank you for your support."
     entries: "Entries"
-    para2: "Your tiket will contain your numbers and will state the drawdate and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
+    para2: "Your ticket will contain your numbers and will state the drawdate and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
     soldout: "Soldout"
   footer:
     copy: "Copyright and legal"
     service: "Timor Scratch is a marketing name for and on behalf of "
-  content: 
-    title: "Images and Videos of your athletes"
-    para1:  "We are working hard to get more content up on the website.  We plan to have this in the next few days."
-    para2: "Social media integration and news feeds should also be working shortly"
-    market: "Various marketing campaigns"
   contact:
     title: "About Us/Jobs"
     address: Dili Address
     office: "Pantai Kelapa, Timor Leste"
     email: "info@timor-scratch.com"
     jobs: "Jobs"
+    philisophy: "Philisophy"
+    jobdetails: "Please visit our office to submit your resume for any open positions.  We are always looking for excellent staff. Our philisophy is to pay fair wages to our staff and allow them interesting jobs.  We try to promote internally and provide training to grow as individuals."
+    desc: "We are  small Timorese owned company with experienced gaming business partners from Singapore. The Teddy Lotere license is issued by MTCI and we pay both winners tax and social gaming taxes to the Timorese Government"
   games:
     title: "Learn about our games"
     htp: "How to Play"

@@ -9,7 +9,13 @@ Summary: Informaton about jobs and contact details
       %h1
         = I18n.translate('contact.title')
       %p
-        We are  small Timorese owned company with experienced gaming business partners from Singapore. The Teddy Lotere license is issued by MTCI and we pay both winners tax and social gaming taxes to the Timorese Government
+        = I18n.translate('contact.desc')
+  .row
+    .col-md-9
+      %h3
+        = I18n.translate('contact.philisophy')
+      %p
+        = I18n.translate('contact.jobdetails')
   .row
     = haml :contact_card, :layout=> false
     %h1 &nbsp;
