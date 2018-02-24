@@ -1,7 +1,7 @@
 en:
   index:
     ts: "Timor Scratch"
-    comingsoon: "Almost here!"
+    comingsoon: "Here now!"
     down: "Scroll down to see our games"
     openjune: "Opening Nov 2016"
     open2017: "Opening 2017"
@@ -50,6 +50,7 @@ en:
     address: Dili Address
     office: "Pantai Kelapa, Timor Leste"
     email: "info@timor-scratch.com"
+    csr: "Nation Building"
     jobs: "Jobs"
     philisophy: "Philisophy"
     jobdetails: "Please visit our office to submit your resume for any open positions.  We are always looking for excellent staff. Our philisophy is to pay fair wages to our staff and allow them interesting jobs.  We try to promote internally and provide training to grow as individuals."

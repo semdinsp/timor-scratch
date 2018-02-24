@@ -17,6 +17,8 @@ Summary: Informaton about jobs and contact details
       %p
         = I18n.translate('contact.jobdetails')
   .row
+    = haml :csr_card, :layout=> false
+  .row
     = haml :contact_card, :layout=> false
     %h1 &nbsp;
     = haml :contact_map, :layout=> false
