@@ -68,6 +68,11 @@ en:
     howtoplay: "Reveal the prize number and match it in the prize panel to win the prize.  Multiple wins per card are possible"
     information: "Dream Information"
     tixprice: "$1 dollar"
+  tc:
+    title: "Terms and Conditions"
+    head1: "Heading 1"
+    h1p1: "Para 1"
+    h1p2: "Para 2"
   
     
     

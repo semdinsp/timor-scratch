@@ -11,6 +11,9 @@ Summary: Information our games
       - ['lafaek','dream'].each do |game|
         = haml :game_card, :layout=> false, :locals => {:name => game}
       %h1 &nbsp;
+  .row
+    .col-md-offset-1.col-md-9
+      = haml :t_and_c_card, :layout=> false, :locals => {}
      
 
   
