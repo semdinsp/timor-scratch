@@ -22,7 +22,7 @@ Link text: Home
                 = I18n.translate('index.online')
   .row
     .col-md-offset-1.col-md-9
-      - ['lafaek','dream'].each do |game|
+      - ['lafaek','dream','soccer'].each do |game|
         = haml :game_card, :layout=> false, :locals => {:name => game}
   .row
     .col-md-offset-1.col-md-9

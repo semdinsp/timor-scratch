@@ -84,6 +84,10 @@ tet:
     2d: "2D Results"
     result: "Result"
     date: "Draw Date"
+  soccer:
+    howtoplay: "If home team score higher than opponent you win.  Multiple wins per card are possible"
+    information: "Soccer Information"
+    tixprice: "$0.25 dollar"
     
     
 

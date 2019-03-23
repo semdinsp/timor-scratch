@@ -152,3 +152,7 @@ ba:
     title: "Latest promo Buy 1 get 1 free"
     source: "from 7-11 stores"  
     details: "Send SMS 'KD 711' to 97080 to get 'BUY 1 GET 1 FREE'"
+  soccer:
+    howtoplay: "If home team score higher than opponent you win.  Multiple wins per card are possible"
+    information: "Soccer Information"
+    tixprice: "$0.25 dollar"

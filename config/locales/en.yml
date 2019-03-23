@@ -68,6 +68,10 @@ en:
     howtoplay: "Reveal the prize number and match it in the prize panel to win the prize.  Multiple wins per card are possible"
     information: "Dream Information"
     tixprice: "$1 dollar"
+  soccer:
+    howtoplay: "If home team score higher than opponent you win.  Multiple wins per card are possible"
+    information: "Soccer Information"
+    tixprice: "$0.25 dollar"
   tc:
     title: "Terms and Conditions"
     head1: "Heading 1"
