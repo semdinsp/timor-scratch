@@ -1,0 +1,14 @@
+.card.card-outline-primary.mb-3.text-left
+  /.card-header
+  /  %img.card-img-top(src="/attachments/#{locals[:name]}.jpg" alt="Game image cap")
+  .card-block
+    %h1.card-title
+      = I18n.translate("tc.title")
+    - tclist=[{head: '1', paras: [1,2]}]
+    -tclist.each  do |tcitem|
+      %h2 
+        = I18n.translate("tc.head#{tcitem[:head]}")
+      -tcitem[:paras].each do |para|
+        %p
+          = I18n.translate("tc.h#{tcitem[:head]}p#{para}")
+      
