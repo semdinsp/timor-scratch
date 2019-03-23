@@ -17,7 +17,7 @@ GEM
       hwid (~> 0.2)
       parseconfig (~> 1.0)
       thor (~> 0.19)
-    ffi (1.9.21)
+    ffi (1.10.0)
     foreman (0.84.0)
       thor (~> 0.19.1)
     haml (5.0.4)
