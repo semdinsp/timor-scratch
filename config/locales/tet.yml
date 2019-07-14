@@ -88,6 +88,10 @@ tet:
     howtoplay: "If home team score higher than opponent you win.  Multiple wins per card are possible"
     information: "Soccer Information"
     tixprice: "$0.25 dollar"
+  mlm:
+    title: "Mlm Results"
+    summary: "Get your summary of performance of your downline and see commission Due. Please collect commision within 15 days from office"
+    
     
     
 
