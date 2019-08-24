@@ -48,6 +48,8 @@ GEM
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
+    rack-ssl (1.4.1)
+      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rb-fsevent (0.10.3)
@@ -80,6 +82,7 @@ DEPENDENCIES
   i18n
   nesta
   puma
+  rack-ssl
   rack-test
   sinatra
   test-unit
