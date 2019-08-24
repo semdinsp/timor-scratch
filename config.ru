@@ -9,7 +9,7 @@ use Rack::ConditionalGet
 use Rack::ETag
 require 'nesta/env'
 puts "Envionment is: #{ENV['RACK_ENV']}"
-if ENV['RACKAPP_ENV']=='production'
+if ENV['RACK_ENV']=='production'
   use Rack::SSL 
   puts "force ssl with rack-ssl"
 end 
